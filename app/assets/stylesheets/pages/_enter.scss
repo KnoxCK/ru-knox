@@ -1,0 +1,23 @@
+.homepage-banner {
+	width: 80vw;
+  	height: 250vh;
+  	background-size: cover !important;
+  	position: relative;
+  	margin-left: 340px;
+}
+.wrapper {
+	background-color: #272E36;
+	background-size: cover !important;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.coming-soon img {
+	border: 2px solid white;
+	width: 40vw;
+	padding: 40px;
+}
+.coming-soon:hover {
+	background-color: #da552f;
+}

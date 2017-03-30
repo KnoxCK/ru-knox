@@ -1,7 +1,14 @@
-.homepage-banner {
-	width: 80vw;
-  	height: 250vh;
-  	background-size: cover !important;
-  	position: relative;
-  	margin-left: 340px;
+.wrapper-home {
+	background-size: cover !important;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.portraits {
+	position: relative;
+	left: 355px;
+	img {
+		width: 390px;
+		height: 440px;
+	}
 }

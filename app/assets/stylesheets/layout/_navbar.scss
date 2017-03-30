@@ -1,18 +1,26 @@
 /* Main class */
 .navbar-ruknox {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: black;
+  background: #272E36;
   transition: all 0.3s ease;
   height: 100%;
+  margin-left: 50px;
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 350px;
-  padding: 40px 60px 0 40px;
+  width: 300px;
+  padding: 40px 60px 0 60px;
   align-items: center;
   justify-content: center;
+  h6 {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    color: white;
+  }
   a {
     padding: 15px 0;
+    letter-spacing: 2px;
   }
 }
 
@@ -31,24 +39,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 70px;
-  position: absolute;
-  top: 80px;
+  
   h1 {
     margin-top: 0;
   }
 }
 .contact-footer {
   font-size: 13px;
-  position: absolute;
-  bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   a {
     padding: 5px;
-    color: #616668;
+    color: white;
     text-decoration: none;
   }
   a:hover {
@@ -83,6 +87,9 @@
 .navbar-ruknox-link:hover  {
   color: #da552f;
   text-decoration: none;
+}
+.navbar-logo {
+  width: 200px;
 }
 
 /* Navbar dropdown menu */
