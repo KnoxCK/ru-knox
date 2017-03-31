@@ -13,11 +13,27 @@
 	justify-content: center;
 	align-items: center;
 }
-.coming-soon img {
+#ruknox-logo-white img {
+	display: block;
 	border: 2px solid white;
 	width: 40vw;
 	padding: 40px;
 }
-.coming-soon:hover {
-	background-color: #da552f;
+#ruknox-logo-blue img {
+	border: 2px solid white;
+	width: 40vw;
+	padding: 40px;
+	display:none;
+}
+.ruknox-box {
+	-webkit-transition: all .5s ease-in-out;
+}
+.ruknox-box:hover {
+	-webkit-transform: scale(1.25);
+	#ruknox-logo-white img {
+		display: block;
+	}
+	#ruknox-logo-blue img {
+		display: none;
+	}
 }
