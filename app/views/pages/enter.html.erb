@@ -1,9 +1,13 @@
 <div class="wrapper banner">
-	<div class="ruknox-box">
-		<div id="ruknox-logo-white">
+	<div class="banner-content">
+		<div class="ruknox-info">
 			<%= link_to home_path do %>
 				<%= image_tag "RuKnox_logo_white.png" %>
 			<% end %>
+			<p><%= link_to "info@ruknox.com", "mailto:info@ruknox.com", class: "email-address" %></p>
+		</div>
+		<div class="coming-soon fadeIn">
+			<%= image_tag "ComingSoon.png" %>
 		</div>
 	</div>
 </div>
