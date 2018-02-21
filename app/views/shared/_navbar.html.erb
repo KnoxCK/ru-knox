@@ -1,0 +1,20 @@
+<div class="navbar-ruknox navbar-ruknox-fixed slideRight">
+  	<%= link_to root_path do %>
+		<%= image_tag "RuKnox_logo_white.png", class: "navbar-logo" %>
+	<% end %>
+	<div class="navbar-links">
+		<!-- Portfolio link -->
+		<%= link_to "PORTFOLIO", "https://www.instagram.com/ruknox", target: "_blank", class: "navbar-ruknox-link" %>
+	    <!-- Commissioned link -->
+	    <%= link_to "ABOUT RU", "", class: "navbar-ruknox-link about-link" %>
+	    <!-- Contact link -->
+	    <%= link_to "CONTACT", "", class: "navbar-ruknox-link contact-link" %>
+		<div class="contact">
+			<!-- <a href="tel:+44-790-548-3601">+44(0)7905 483 601</a> -->
+			<%= link_to "info@ruknox.com", "mailto:info@ruknox.com" %>
+			<%= link_to "https://www.instagram.com/ruknox", target: "_blank" do %>
+	  			<i class="fa fa-instagram"> </i>
+			<% end %>
+		</div>
+	</div>
+</div>

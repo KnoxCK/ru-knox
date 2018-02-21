@@ -1,71 +1,40 @@
 /* Main class */
-.navbar-ruknox {
+.contact-page {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: rgba(#272E36, 0.6);
+  background: #272E36;
   transition: all 0.3s ease;
+  height: 100%;
   position: relative;
   display: flex;
-  height: 70px;
+  flex-direction: column;
   width: 100vw;
-  // padding: 40px 60px 0 60px;
+  padding: 40px 60px 0 60px;
   align-items: center;
   justify-content: center;
-  padding-top: 3px;
+  z-index: -1000;
+  h6 {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  p {
+    font-weight: lighter;
+  }
+  a {
+    padding: 15px 0;
+    letter-spacing: 2px;
+  }
 }
 
 /* Optional class to fix the navbar on top */
-.navbar-ruknox-fixed {
+.contact-page-fixed {
   position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
-  z-index: 1000;
-}
-/* Navbar logo */
-.navbar-logo {
-  position: absolute;
-  left: 50px;
-  top: 18px;
-  width: 230px;
-}
-
-/* Navbar links */
-.navbar-links {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-}
-.navbar-ruknox-link {
-  color: white;
-  padding: 0 33px;
-  justify-content: space-between;
-  font-weight: lighter;
-  letter-spacing: 1px;
-}
-.navbar-ruknox-link:hover  {
-  color: #da552f;
-  text-decoration: none;
-}
-.contact {
-  font-size: 13px;
-  display: flex;
-  position: absolute;
-  right: 35px;
-  margin-top: 1px;
-  a {
-    color: white;
-    padding: 0 10px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: lighter;
-  }
-  a:hover {
-    color: #da552f;
-    text-decoration: none;
-  }
-  i {
-    font-size: 18px;
-  }
+  z-index: 1;
+  height: 100%;
 }
 
 /* Navbar dropdown menu */
