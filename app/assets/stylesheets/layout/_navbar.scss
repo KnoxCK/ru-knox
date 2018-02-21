@@ -1,6 +1,6 @@
 /* Main class */
 .navbar-ruknox {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  // box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: rgba(#272E36, 0.6);
   transition: all 0.3s ease;
   position: relative;
@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 3px;
+  box-shadow: 1px 1px 1px #272E36;
 }
 
 /* Optional class to fix the navbar on top */
@@ -34,6 +35,20 @@
   display: flex;
   justify-content: space-between;
   font-size: 14px;
+  // ADDED
+  position: absolute;
+  right: 30px;
+  top: 26px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  a {
+    color: #E3E4E4
+  }
+  a:hover {
+    color: #da552f;
+    text-decoration: none;
+  }
+  //
 }
 .navbar-ruknox-link {
   color: white;
@@ -53,7 +68,7 @@
   right: 35px;
   margin-top: 1px;
   a {
-    color: white;
+    color: #E3E4E4;
     padding: 0 10px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -67,6 +82,35 @@
     font-size: 18px;
   }
 }
+
+ @media only screen and (max-width: 520px) {
+  .navbar-logo {
+    position: absolute;
+    left: 21px;
+    top: 0px;
+    width: 90%;
+    justify-content: center;
+    padding: 43px;
+  }
+
+  /* Navbar links */
+  .navbar-links {
+    justify-content: center;
+    left: 22px;
+    top: 115px;
+    //
+  }
+  .navbar-ruknox {
+    height: 160px;
+  }
+  .navbar-ruknox-link {
+    padding-right: 33px;
+    padding-left: 0;
+  }
+}
+
+
+
 
 /* Navbar dropdown menu */
 .navbar-ruknox-dropdown-menu {
